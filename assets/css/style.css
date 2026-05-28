@@ -168,3 +168,28 @@ padding: 1.5rem;
 .attention{
     color: #dc2626;
 }
+
+@media (max-width: 768px) {
+    body {
+        align-items: flex-start;
+        padding: 2rem 1rem;
+    }
+
+    #container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    #img img {
+        width: 60%;
+    }
+
+    #calculator {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 1.75rem;
+    }
+}
